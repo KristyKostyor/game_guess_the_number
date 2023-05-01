@@ -26,8 +26,7 @@ function play(){
                 text: 'Нужно ввести число!',
         })
     }
-    else{
-        if(userNumber < answer){
+    else if(userNumber < answer){
             Swal.fire('Попробуй  число повыше!',
                     'Компьютер пока побеждает!')
         }
@@ -45,4 +44,3 @@ function play(){
         })
 }
     }
-}
